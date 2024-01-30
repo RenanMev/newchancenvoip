@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F9FC;
+}
+
+section {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    width: min-content;
+    padding: 25px;
+}
+
+.logo-nvoip {
+    margin-bottom: 20px;
+    margin: 10px;
+    /* This line seems unnecessary, and it might override the margin-bottom property */
+}
+
+.wrp-form {
+    width: 100%;
+}
+
+.wrp-form form {
+    gap: 20px;
+}
+
+.input-register input{
+    border: none;
+}
+.wrp-form form input {
+    width: 100%;
+    padding-bottom: 7px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 2px solid #D3D3D3;
+    outline: none;
+}
+
+.wrp-form form input:focus {
+
+    border-bottom: 2px solid #F37435;
+    transition: all 0.4s;
+    outline: none;
+}
+
+.wrp-form form input:hover {
+
+    border-bottom: 2px solid #692c0d;
+    transition: all 0.4s;
+    outline: none;
+}
+
+
+.btn button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #51C24A;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    background-color: #46aa41;
+}
+
+.out {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+
+}
+
+.out a {
+    color: #6495ED;
+    text-decoration: none;
+}
+
+.logo {
+    width: 290px;
+}
+
+.not-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #3a8c36;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.not-pass{
+    font-size: 1px;
+}
